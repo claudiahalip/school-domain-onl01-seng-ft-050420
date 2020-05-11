@@ -27,10 +27,11 @@ class School
   end
   
   def grade (grade)
-    @roster.values_at (grade)
-      
-    
+    @roster.values_at(grade)
   end
+  
+  
+  
   
   def sort
     sorted_roster = {}
