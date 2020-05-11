@@ -31,7 +31,9 @@ class School
   end
   
   def sort
-    @roster.collect do | grede, names |
+    new_rooster = {}
+    @roster.collect do | grade, names |
+      new_rooster[grade] = names.sort
       
     
     
