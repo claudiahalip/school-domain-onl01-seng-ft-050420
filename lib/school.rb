@@ -36,7 +36,7 @@ class School
       names.sort
     end
       
-    @roster
+    #@roster
     
     
   end
