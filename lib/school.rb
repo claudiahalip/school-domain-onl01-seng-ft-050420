@@ -27,10 +27,9 @@ class School
   end
   
   def grade (grade)
-    all_sudents_samegrade = []
     @roster.each do | hash_grade, students_array |
       if grade = hash_grade
-         return @roster[grade]
+         @roster[grade]
       end
     end
   end
