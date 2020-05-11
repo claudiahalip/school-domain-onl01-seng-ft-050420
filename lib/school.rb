@@ -30,7 +30,7 @@ class School
     all_sudents_samegrade = []
     @roster.each do | hash_grade, students |
       if grade = hash_grade
-        all_sudents_samegrade <<  @roster[hash_grade]
+        all_sudents_samegrade <<  @roster[grade]
       end
     end
     all_sudents_samegrade.flatten
