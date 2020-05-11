@@ -32,6 +32,8 @@ class School
   end
   
   def sort
+    @roster.each do | garde, names |
+      names.sort
     
     
   end
