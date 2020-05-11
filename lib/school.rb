@@ -28,13 +28,12 @@ class School
   
   def grade (grade)
     all_sudents_samegrade = []
-    @roster.each do | hash_grade, students |
+    @roster.each do | hash_grade, students_array |
       if grade = hash_grade
-        all_sudents_samegrade <<  @roster[grade]
+         @roster[grade]
       end
     end
-    all_sudents_samegrade
-  end
+    
   
   def sort
     
