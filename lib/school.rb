@@ -30,7 +30,7 @@ class School
     all_sudents_samegrade = []
     @roster.each do | hash_grade, students_array |
       if grade = hash_grade
-         @roster[grade]
+         return @roster[grade]
       end
     end
   end
