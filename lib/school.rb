@@ -27,11 +27,8 @@ class School
   end
   
   def grade (grade)
-    @roster.detect do | grades, names |
-      if grade = grades
-        names
-      end
-    end
+    @roster.values_at (grade)
+      
     
   end
   
