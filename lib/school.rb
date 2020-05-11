@@ -30,8 +30,10 @@ class School
     @roster.detect do | grades, names |
       if grade = grades
         names
+      end
+    end
     
-  #end
+  end
   
   def sort
     sorted_roster = {}
